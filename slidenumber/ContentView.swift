@@ -82,7 +82,7 @@ struct ContentView: View {
                     .padding(.horizontal, 5)
                 }
             }
-            .padding(.top, 10)
+            .padding(.top, 20)
             
             Button(action: {
                 withAnimation { 
@@ -97,7 +97,8 @@ struct ContentView: View {
                     .background(Color.indigo.opacity(0.4))
                     .cornerRadius(10)
             }
-            .padding(.top, 20)
+            .padding(.top, 10)
+            .padding(.bottom, 20)
             .opacity(viewModel.isWin ? 1 : 0)
             
             Spacer()
