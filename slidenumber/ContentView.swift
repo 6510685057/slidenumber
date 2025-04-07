@@ -15,6 +15,7 @@ struct ContentView: View {
                         .fill(Color.indigo.opacity(1))
                         .cornerRadius(10)
                 )
+                .padding(.top, 40)
             Spacer()
             
             LazyVGrid(
